@@ -7,14 +7,14 @@ MODEL:
     STRIDE_IN_1X1: False  # this is a C2 model
     DEPTH: 101
 DATASETS:
-  TRAIN: ("synthtext1",) 
-  TEST: ("synthtext1",)
+  TRAIN: ("synth_train",) 
+  TEST: ("synth_val",)
 SOLVER:
-  IMS_PER_BATCH: 8
+  IMS_PER_BATCH: 2
   BASE_LR: 0.001
-  STEPS: (100000,)
-  MAX_ITER: 100000
-  CHECKPOINT_PERIOD: 5000
+  STEPS: (1000,)
+  MAX_ITER: 1000
+  CHECKPOINT_PERIOD: 100
 
 INPUT:
   MIN_SIZE_TRAIN: (800,900,1000,1100,1200)

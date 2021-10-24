@@ -50,7 +50,8 @@ _PREDEFINED_SPLITS_COCO["coco"] = {
     "ctw1500":("ctw1500/train_images", "ctw1500/train.json"),
     "icdar2013":("icdar2013/train_images", "icdar2013/train.json"),
     "icdar2015":("icdar2015/train_images", "icdar2015/train.json"),
-
+    "synth_train":("synth/train_images", "synth/train.json"),
+    "synth_val":("synth/val_images", "synth/val.json")
 }
 
 _PREDEFINED_SPLITS_COCO["coco_person"] = {
